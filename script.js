@@ -1,4 +1,4 @@
-var s = skrollr.init() 
+
 
 
 $(document).on('click','a.item',function(evt){
