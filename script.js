@@ -3,9 +3,7 @@ var s = skrollr.init()
 
 $(document).on('click','a.item',function(evt){
   var target = $(this).attr("href")
-  $('html,body').animate({
-    scrollTop: $(target).offset().top - 30
-  },500)
+  
 })
 
 
