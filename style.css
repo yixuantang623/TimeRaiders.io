@@ -261,6 +261,13 @@ section#footer img.bottom {
   text-align: center;
   box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.1);
 }
+
+@media screen and (max-width: 768px) {
+  .popup#img .dialouge {
+    width: 80%
+  }
+}
+
 .popup#img img {
   width: 100%;
   max-width: 700px;
