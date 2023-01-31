@@ -128,6 +128,11 @@ section {
     text-align: left;
   }
 }
+@media screen and (max-width: 768px) {
+  #inf .container ol {
+    text-align: left;
+  }
+}
 #inf .container p {
   padding-top: 15px;
   margin-bottom: 30px;
