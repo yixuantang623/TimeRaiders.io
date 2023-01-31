@@ -1,15 +1,3 @@
-var s = skrollr.init() 
-
-$(document).on('click','a.item',function(evt){
-  var target = $(this).attr("href")
-  var scrollTop = 
-    document.documentElement.scrollTop;
-    window.pageYOffset;
-    document.body.scrollTop;
-  $('html,body').animate({
-    scrollTop: $(target).offset().top - 30
-  },500)
-})
 
 
 
@@ -71,8 +59,6 @@ $("#winner").click(function() {
 
 
 
-
-
 function debounce(func, delay) {
   var timer = null;
   return function () {
@@ -84,3 +70,23 @@ function debounce(func, delay) {
     }, delay);
   }
 }
+
+$(".item1").click(function () {
+  window.location.hash = "#header";
+  
+});
+
+$(".item2").click(function () {
+  window.location.hash = "#inf";
+  
+});
+
+$(".item3").click(function () {
+  window.location.hash = "#award";
+  
+});
+
+$(".item4").click(function () {
+  window.location.hash = "#notice";
+  
+});
