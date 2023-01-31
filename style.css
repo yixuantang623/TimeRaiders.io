@@ -113,7 +113,7 @@ section {
   #inf .container {
     text-align: center;
     padding-left: 30px;
-    padding-right: 30px
+    padding-right: 30px;
   }
 }
 #inf .container img {
@@ -150,10 +150,6 @@ section {
 }
 #inf .container#award ol li {
   margin-top: 10px;
-}
-#inf .container#notice {
-  padding-top: 50px;
-  text-align: left;
 }
 
 img.top {
