@@ -111,7 +111,6 @@ section {
 }
 @media screen and (max-width: 768px) {
   #inf .container {
-    text-align: center;
     padding-left: 30px;
     padding-right: 30px;
   }
