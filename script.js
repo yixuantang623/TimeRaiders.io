@@ -1,10 +1,9 @@
 
-
 var s = skrollr.init() 
-var scrollTop =
-  document.documentElement.scrollTop
-  window.pageYOffset
-  document.body.scrollTop
+var scrollTop = 
+  document.documentElement.scrollTop;
+  window.pageYOffset;
+  document.body.scrollTop;
 
 $(document).on('click','a.item',function(evt){
   var target = $(this).attr("href")
@@ -12,7 +11,6 @@ $(document).on('click','a.item',function(evt){
     scrollTop: $(target).offset().top - 30
   },500)
 })
-
 
 
 
